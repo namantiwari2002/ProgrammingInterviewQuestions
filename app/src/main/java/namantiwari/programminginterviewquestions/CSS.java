@@ -25,6 +25,9 @@ public class CSS extends AppCompatActivity {
         Intent intent = getIntent();
         String site2 = intent.getStringExtra(SITE1_KEY);
         String site3 = intent.getStringExtra(SITE2_KEY);
+
+
+        
         setContentView(R.layout.activity_css);
 
 
